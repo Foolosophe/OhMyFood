@@ -1,0 +1,22 @@
+* {
+  font-family: "Raleway", sans-serif, Tahoma;
+  list-style: none;
+}
+
+body {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  max-width: 1440px;
+}
+
+
+/*Header*/
+
+/*Main*/
+
+/*Media Queries*/
+@media (max-width: 992px) {
+}
+
