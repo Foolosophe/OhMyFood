@@ -13,7 +13,13 @@ body {
 
 
 /*Header*/
-
+h1{
+  background-color: aqua;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 /*Main*/
 
 /*Media Queries*/
