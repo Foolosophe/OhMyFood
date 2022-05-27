@@ -15,13 +15,14 @@ body {
 /*Header*/
 h1{
   background-color: rgb(92, 122, 122);
-  font-size: 150px;
+  font-size: 200px;
   justify-content: center;
   text-align: center;
-  margin: 10px
+  margin: 20px
 }
 p{
-  font-size: 100px;
+  background-color: azure;
+  font-size: 120px;
   justify-content: center;
   text-align: center;
 }
