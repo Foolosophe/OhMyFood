@@ -1,43 +1,23 @@
-* {
-  font-family: "Raleway", sans-serif, Tahoma;
-  list-style: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
-body {
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  max-width: 100%;
+*,
+::before, 
+::after {
+  box-sizing: border-box;
+  
+  
 }
-
+body{
+  margin: 0px;
+}
 
 /*Header*/
-h1{
-  background-color: rgb(92, 122, 122);
-  font-size: 200px;
-  justify-content: center;
+header{
+  font-family: 'Shrikhand', cursive;
   text-align: center;
-  margin: 40px
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+  padding: 0.3rem;
 }
-.paragraphe{
-  background-color: rgb(28, 66, 66);
-  font-size: 100px;
-  justify-content: center;
-  text-align: center;
-}
-p{
-  background-color: azure;
-  font-size: 50px;
-  justify-content: center;
-  text-align: center;
-}
-span{
-  font-size: 100px;
-}
-/*Main*/
 
-/*Media Queries*/
-@media (max-width: 992px) {
-}
 
