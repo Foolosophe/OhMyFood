@@ -34,20 +34,23 @@ header{
   font-size: 1.5rem;
 }
 .explorer{
+  background-color: #f8f8f8;
   text-align: center;
 }
 .explorer h2{
-  margin-top: 2rem;
+  margin: 0px;
+  padding: 2rem;
   font-size: 2rem;
 }
 .explorer p{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .explorer button{
   color: white;
   font-size: 1.5rem;
   padding: 1rem 2rem;
   margin-top: 1rem;
+  margin-bottom: 3.5rem;
   border: none;
   border-radius: 2rem;
   box-shadow: 2px 1px 10px -3px black;
