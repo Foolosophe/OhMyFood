@@ -55,9 +55,12 @@ header{
   border-radius: 2rem;
   box-shadow: 2px 1px 10px -3px black;
   background-image: linear-gradient(#FF79DA, #9356DC );
-  transition: transform 500ms;
+  transition: transform 300ms;
 }
 .explorer button:hover{
   opacity: 0.9;
   transform: scale(1.02);
+}
+body{
+  background-color: aqua;
 }
