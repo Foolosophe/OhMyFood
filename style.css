@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding: 0 1rem;
+}
+
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
@@ -45,6 +49,7 @@ header {
   font-size: 1.5rem;
 }
 .explorer button {
+  cursor: pointer;
   color: white;
   font-size: 1.5rem;
   padding: 1rem 2rem;
@@ -52,13 +57,57 @@ header {
   margin-bottom: 3.5rem;
   border: none;
   border-radius: 2rem;
-  box-shadow: 2px 1px 10px -3px black;
   background-image: linear-gradient(#FF79DA, #9356DC);
   transition: transform 300ms;
+  box-shadow: 2px 1px 10px -3px black;
 }
 .explorer button:hover {
-  opacity: 0.9;
   transform: scale(1.02);
+}
+
+.functioning {
+  counter-reset: numbers;
+}
+.functioning ol {
+  cursor: pointer;
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 930px) {
+  .functioning ol {
+    flex-direction: column;
+  }
+}
+.functioning li {
+  position: relative;
+  list-style-type: none;
+  background-color: #f6f6f6;
+  padding: 1.5rem 2rem;
+  flex-grow: 1;
+  border-radius: 1rem;
+  transition: transform 300ms;
+  box-shadow: 2px 1px 10px -3px black;
+}
+.functioning li::before {
+  content: counter(numbers);
+  counter-increment: numbers;
+  background-color: #9356dc;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1rem;
+  left: -1rem;
+}
+.functioning li:hover {
+  transform: scale(1.02);
+}
+.functioning li i.fa {
+  margin-right: 1rem;
+  color: grey;
 }
 
 /*# sourceMappingURL=style.css.map */

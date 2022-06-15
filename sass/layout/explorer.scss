@@ -1,3 +1,6 @@
+@use "../utils/box-shadow.scss";
+@use "../utils/zoom.scss";
+
 .explorer{
     background-color: #f8f8f8;
     text-align: center;
@@ -10,6 +13,7 @@
       font-size: 1.5rem;
     }
     & button{
+      cursor: pointer;
       color: white;
       font-size: 1.5rem;
       padding: 1rem 2rem;
@@ -17,12 +21,12 @@
       margin-bottom: 3.5rem;
       border: none;
       border-radius: 2rem;
-      box-shadow: 2px 1px 10px -3px black;
       background-image: linear-gradient(#FF79DA, #9356DC );
       transition: transform 300ms;
+      @include box-shadow.base-shadow;
+      &:hover{
+        @include zoom.zoom;
     }
-    & button:hover{
-      opacity: 0.9;
-      transform: scale(1.02);
     }
+    
   }
