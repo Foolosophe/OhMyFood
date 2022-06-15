@@ -3,6 +3,8 @@
 
 .functioning{
     counter-reset: numbers;
+    padding: 2rem;
+   
     & ol{
         cursor: pointer;
         display: flex;
@@ -24,8 +26,9 @@
             justify-content: center;
             border-radius: 50%;
             position: absolute;
-            bottom: 1rem;
+            top: 50%;
             left: -1rem;
+            transform: translatey(-50%);
         }
         list-style-type: none;
         background-color: #f6f6f6;

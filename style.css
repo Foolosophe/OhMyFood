@@ -9,17 +9,30 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
 }
 
-main {
-  padding: 0 1rem;
+h2 {
+  padding: 2rem 0;
+  margin: 0;
+}
+
+h3, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-  padding: 0.3rem;
+  padding: 2rem;
   position: relative;
 }
 
@@ -41,8 +54,6 @@ header {
   text-align: center;
 }
 .explorer h2 {
-  margin: 0px;
-  padding: 2rem;
   font-size: 2rem;
 }
 .explorer p {
@@ -67,6 +78,7 @@ header {
 
 .functioning {
   counter-reset: numbers;
+  padding: 2rem;
 }
 .functioning ol {
   cursor: pointer;
@@ -99,8 +111,9 @@ header {
   justify-content: center;
   border-radius: 50%;
   position: absolute;
-  bottom: 1rem;
+  top: 50%;
   left: -1rem;
+  transform: translatey(-50%);
 }
 .functioning li:hover {
   transform: scale(1.02);
@@ -108,6 +121,92 @@ header {
 .functioning li i.fa {
   margin-right: 1rem;
   color: grey;
+}
+
+.menus {
+  background-color: #f6f6f6;
+  padding: 2rem;
+}
+.menus .menus-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+@media (max-width: 930px) {
+  .menus .menus-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.menus .menus-cards .new {
+  position: relative;
+}
+.menus .menus-cards .new::before {
+  content: "Nouveau";
+  position: absolute;
+  height: 2rem;
+  width: 5rem;
+  background-color: #99e2d0;
+  color: darkgreen;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  top: 1rem;
+}
+.menus .card-image {
+  border-radius: 1rem 1rem 0 0;
+  height: 15rem;
+  background-size: cover;
+}
+.menus .card-image-1 {
+  background-image: url("../../images/restaurants/menu-1.jpg");
+}
+.menus .card-image-2 {
+  background-image: url("../../images/restaurants/menu-2.jpg");
+}
+.menus .card-image-3 {
+  background-image: url("../../images/restaurants/menu-3.jpg");
+}
+.menus .card-image-4 {
+  background-image: url("../../images/restaurants/menu-4.jpg");
+}
+.menus .card-description {
+  position: relative;
+}
+.menus .card-description h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.menus .card-description p {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+.menus .card-description i {
+  position: absolute;
+  font-size: 2rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer {
+  background-color: #353535;
+  padding: 2rem;
+  color: white;
+}
+footer h2 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+footer p, footer a {
+  padding-bottom: 0.5rem;
+  width: 100%;
+  color: white;
+}
+footer i {
+  padding-right: 0.5rem;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
