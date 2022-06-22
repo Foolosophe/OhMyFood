@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   margin: 0px;
   font-family: "Roboto", sans-serif;
   margin-left: auto;
@@ -26,4 +26,6 @@ p {
 a {
   text-decoration: none;
   color: black;
-} /*# sourceMappingURL=base.css.map */
+}
+
+/*# sourceMappingURL=base.css.map */

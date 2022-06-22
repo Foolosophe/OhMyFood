@@ -1,22 +1,19 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "projet 3 openclassroom",
+  "description": "project 3 OpenClassRoom \"OhMyFood\"",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/style.scss ./public/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Foolosophe/ohmyfood.git"
   },
-  "author": "Yohann Dandeville",
+  "author": "YD",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Foolosophe/ohmyfood/issues"
   },
-  "homepage": "https://github.com/Foolosophe/ohmyfood#readme",
-  "dependencies": {
-    "sass": "^1.52.3"
-  }
+  "homepage": "https://github.com/Foolosophe/ohmyfood#readme"
 }
