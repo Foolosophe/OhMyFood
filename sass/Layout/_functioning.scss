@@ -1,0 +1,51 @@
+
+.functioning {
+  background-color:#ffffff;
+  counter-reset: numbers;
+  padding: 2rem;
+
+  & ol {
+    cursor: pointer;
+    display: flex;
+    gap: 2rem;
+    padding: 0 8rem;
+    @media (max-width: 930px) {
+      flex-direction: column;
+    }
+  }
+  & li {
+    position: relative;
+    transition: all 300ms;
+    @include base-shadow;
+    &::before {
+      content: counter(numbers);
+      counter-increment: numbers;
+      background-color: #9356dc;
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: -1rem;
+      transform: translatey(-50%);
+    }
+    list-style-type: none;
+    background-color: #f6f6f6;
+    padding: 1.5rem 2rem;
+    flex-grow: 1;
+    border-radius: 1rem;
+  }
+  & li:hover{
+    transform: scale(1.02);
+    opacity: 0.9;
+    background-color: #f2eafb;
+    box-shadow: 3px 3px 6px rgb(0, 0, 0);
+  }
+  & i.fa {
+    margin-right: 1rem;
+    color: grey;
+  }
+}
