@@ -21,6 +21,7 @@
   }
 }
 .card-image {
+  z-index: 1;
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -41,6 +42,7 @@ figure:hover {
   position: relative;
 }
 .new::before {
+  z-index: 2;
   content: "Nouveau";
   position: absolute;
   height: 2rem;
