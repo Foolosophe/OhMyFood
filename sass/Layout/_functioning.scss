@@ -1,9 +1,8 @@
-
 .functioning {
-  background-color:#ffffff;
+  background-color: #ffffff;
   counter-reset: numbers;
   padding-bottom: 0.5rem;
-  padding-left: 1.92rem ;
+  padding-left: 1.92rem;
 
   & ol {
     cursor: pointer;
@@ -46,20 +45,18 @@
     background-color: #f2eafb;
     box-shadow: 3px 3px 6px rgb(0, 0, 0);
   }
-
-  & li:hover .fa-mobile-alt:before {
-    color:#9356dc;
-  }
-  & li:hover .fa-list-ul:before {
-    color:#9356dc;
-  }
-  & li:hover .fa-store:before {
-    color:#9356dc;
-  }
   & i.fa {
     margin-right: 1rem;
     color: grey;
   }
+
+  & li:hover .fa-mobile-alt:before {
+    color: #9356dc;
+  }
+  & li:hover .fa-list-ul:before {
+    color: #9356dc;
+  }
+  & li:hover .fa-store:before {
+    color: #9356dc;
+  }
 }
-
-
