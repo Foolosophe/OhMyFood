@@ -12,6 +12,9 @@
     @media (max-width: 930px) {
       flex-direction: column;
     }
+    @media (max-width: 555px) {
+      padding: 0 1rem;
+    }
   }
   & li {
     display: block;
