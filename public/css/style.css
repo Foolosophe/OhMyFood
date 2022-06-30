@@ -443,6 +443,12 @@ img {
   align-items: center;
   line-height: 1.5em;
 }
+.blocks-descriptions-menus .texts-description h5 {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 .blocks-descriptions-menus .texts-description p {
   margin: 0;
   white-space: nowrap;
@@ -471,7 +477,7 @@ img {
   color: #fff;
   font-size: xx-large;
   overflow: hidden;
-  transition: transform 500ms ease-in-out;
+  transition: transform 450ms ease-in-out;
 }
 
 .blocks-descriptions-menus:hover .fa-circle-check {

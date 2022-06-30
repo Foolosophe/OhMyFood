@@ -103,7 +103,6 @@ img {
 }
 .blocks-descriptions-menus {
   background-color: #fff;
-
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
@@ -120,6 +119,12 @@ img {
     justify-content: space-between;
     align-items: center;
     line-height: 1.5em;
+  }
+  .texts-description h5 {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .texts-description p {
     margin: 0;
@@ -151,7 +156,7 @@ img {
   color: #fff;
   font-size: xx-large;
   overflow: hidden;
-  transition: transform 500ms ease-in-out;
+  transition: transform 450ms ease-in-out;
 }
 .blocks-descriptions-menus:hover .fa-circle-check {
   transform: rotate(360deg);
