@@ -454,7 +454,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  line-height: 1.5em;
   padding: 0;
   visibility: hidden;
 }
@@ -469,6 +468,9 @@ img {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+.blocks-descriptions-menus .price {
+  margin-bottom: 0;
 }
 .blocks-descriptions-menus .validation-dishes {
   display: grid;
