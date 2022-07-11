@@ -435,7 +435,6 @@ img {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  transition: padding-right 450ms ease-in-out;
   box-shadow: 4px 4px 6px #aaa;
 }
 .blocks-descriptions-menus .texts-description {
@@ -484,7 +483,7 @@ img {
   position: absolute;
   right: -3rem;
   width: 3rem;
-  transition: margin-right 0.5s;
+  transition: all 0.5s;
 }
 .blocks-descriptions-menus:hover .validation-dishes {
   right: 0;
