@@ -146,6 +146,7 @@ header {
   content: counter(numbers);
   counter-increment: numbers;
   background-color: #9356dc;
+  color: white;
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -294,7 +295,8 @@ figure:hover {
 .fill {
   position: absolute;
   right: 1rem;
-  top: 25%;
+  top: 20%;
+  font-size: 20px;
 }
 
 .fas {
@@ -370,8 +372,8 @@ img {
 
 .fill {
   position: absolute;
-  right: 1rem;
-  top: 25%;
+  right: 1.5rem;
+  top: 35%;
 }
 
 .fas {
