@@ -232,7 +232,7 @@ footer i {
 .card-image {
   z-index: 1;
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 30px 30px 0 0;
 }
@@ -244,12 +244,12 @@ figure {
   transition: all 300ms;
   box-shadow: 4px 4px 6px #aaa;
 }
-@media (max-width: 340px) {
+@media (max-width: 768px) {
   figure {
-    min-width: 190px;
-    margin: 1rem;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5rem;
     padding: 0;
-    padding-bottom: 1rem;
   }
 }
 
@@ -272,20 +272,27 @@ figure:hover {
   color: #09664f;
   display: grid;
   place-items: center;
-  right: 1rem;
-  top: 1rem;
-  margin-right: 2.5rem;
-  margin-top: 1.1rem;
+  right: 1.3rem;
+  top: 1.3rem;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  .new::before {
+    right: 4rem;
+    top: 2.5rem;
+  }
 }
 
 .title-restaurant {
   margin: 0;
-  padding: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  padding: 0 1rem;
 }
 
 .restaurant-place {
-  padding: 0 0.5rem;
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .heart {
@@ -295,7 +302,7 @@ figure:hover {
 .fill {
   position: absolute;
   right: 1rem;
-  top: 20%;
+  top: 10%;
   font-size: 20px;
 }
 
