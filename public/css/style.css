@@ -295,7 +295,7 @@ figure:hover {
 .fill {
   position: absolute;
   right: 1rem;
-  top: 30%;
+  top: 20%;
   font-size: 20px;
 }
 
@@ -370,11 +370,10 @@ img {
   position: relative;
 }
 
-.fill {
-  position: absolute;
-  right: 1.5rem;
-  top: 30%;
+.menus-restaurants .fill {
   font-size: 20px;
+  top: 30%;
+  right: 1.5rem;
 }
 
 .fas {
